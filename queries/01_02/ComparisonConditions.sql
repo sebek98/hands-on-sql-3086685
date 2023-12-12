@@ -1,6 +1,6 @@
-SELECT empno, name,hiredate 
-FROM emp_tab 
-WHERE name LIKE '_D%'; 
+SELECT empno, name, hiredate 
+FROM emp_tab
+WHERE name LIKE "_D%" OR "KI%";
 
 SELECT * FROM emp_tab 
 WHERE deptno IN (30,40);
